@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #282D35;
 }
 
 .nav-logo {
@@ -27,4 +28,20 @@ nav {
   padding: 30px 25px;
   background-color: #21222A;
   color: white;
+}
+
+main {
+  color: white;
+  margin: 57px 27px;
+}
+
+.main--title {
+  margin-bottom: 36px;
+  font-size: 37px;
+  letter-spacing: -0.05em;
+}
+
+.main--list li {
+  margin-bottom: 20px;
+  margin-left: 27px;
 }
