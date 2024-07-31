@@ -6,6 +6,9 @@ body {
   margin: 0;
   font-family: Inter, sans-serif;
   background-color: #282D35;
+  background-image: url(../src/assets/imgs/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 100%; 
 }
 
 .nav-logo {
@@ -44,4 +47,9 @@ main {
 .main--list li {
   margin-bottom: 20px;
   margin-left: 27px;
+}
+
+.main--list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
